@@ -24,10 +24,10 @@
         fade = vars.animation === "fade",
         asNav = vars.asNavFor !== "",
         methods = {};
-    
+
     // Store a reference to the slider object
     $.data(el, "flexslider", slider);
-    
+
     // Privat slider methods
     methods = {
       init: function() {
@@ -64,27 +64,27 @@
         if (vars.controlsContainer !== "") slider.controlsContainer = $(vars.controlsContainer).length > 0 && $(vars.controlsContainer);
         // MANUAL:
         if (vars.manualControls !== "") slider.manualControls = $(vars.manualControls).length > 0 && $(vars.manualControls);
-        
+
         // RANDOMIZE:
         if (vars.randomize) {
           slider.slides.sort(function() { return (Math.round(Math.random())-0.5); });
           slider.container.empty().append(slider.slides);
         }
-        
+
         slider.doMath();
-        
+
         // ASNAV:
         if (asNav) methods.asNav.setup();
-        
+
         // INIT
         slider.setup("init");
-        
+
         // CONTROLNAV:
         if (vars.controlNav) methods.controlNav.setup();
-        
+
         // DIRECTIONNAV:
         if (vars.directionNav) methods.directionNav.setup();
-        
+
         // KEYBOARD:
         if (vars.keyboard && ($(slider.containerSelector).length === 1 || vars.multipleKeyboard)) {
           $(document).bind('keyup', function(event) {
@@ -104,10 +104,10 @@
             slider.flexAnimate(target, vars.pauseOnAction);
           });
         }
-        
+
         // PAUSEPLAY
         if (vars.pausePlay) methods.pausePlay.setup();
-        
+
         // SLIDSESHOW
         if (vars.slideshow) {
           if (vars.pauseOnHover) {
@@ -120,14 +120,14 @@
           // initialize animation
           (vars.initDelay > 0) ? setTimeout(slider.play, vars.initDelay) : slider.play();
         }
-        
+
         // TOUCH
         if (touch && vars.touch) methods.touch();
-        
+
         // FADE&&SMOOTHHEIGHT || SLIDE:
         if (!fade || (fade && vars.smoothHeight)) $(window).bind("resize focus", methods.resize);
-        
-        
+
+
         // API: start() Callback
         setTimeout(function(){
           vars.start(slider);
@@ -162,9 +162,9 @@
           var type = (vars.controlNav === "thumbnails") ? 'control-thumbs' : 'control-paging',
               j = 1,
               item;
-          
+
           slider.controlNavScaffold = $('<ol class="'+ namespace + 'control-nav ' + namespace + type + '"></ol>');
-          
+
           if (slider.pagingCount > 1) {
             for (var i = 0; i < slider.pagingCount; i++) {
               item = (vars.controlNav === "thumbnails") ? '<img src="' + slider.slides.eq(i).attr("data-thumb") + '"/>' : '<a>' + j + '</a>';
