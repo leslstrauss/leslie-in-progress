@@ -98,6 +98,18 @@
 	content: "\e600";
 }
 
+#section-1 {
+	background-color: #4C5578
+}
+
+#section-2 {
+	background-color: #66853D
+}
+
+#section-3 {
+	background-color: #3F5F77
+}
+
 .icon-lab:before {
 	content: "\e601";
 }
