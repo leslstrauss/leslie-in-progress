@@ -1,0 +1,28 @@
+.flexwrapper {
+  margin-left: -1em;
+}
+
+.flexwrapper > section {
+  float: left;
+  width: 25%;
+  border-left: 1em solid #eff5f5;
+  box-sizing: border-box;
+  margin-bottom: .5em;
+  padding-top: 25%;
+}
+
+.flexwrapper > section:nth-child(1) {
+  background: #a9cc5b;
+}
+
+.flexwrapper > section:nth-child(2) {
+  background: #39b4e0;
+}
+
+.flexwrapper > section:nth-child(3) {
+  background: #e4582b;
+}
+
+.flexwrapper > section:nth-child(4) {
+  background: #f8c624;
+}

@@ -9,6 +9,10 @@
 	font-style: normal;
 } /* Icons created with icomoon.io/app */
 
+/*.container {
+	background-color: #000000;
+}*/
+
 .tabs {
 	position: relative;
 	width: 100%;
