@@ -1473,7 +1473,9 @@ $include-html-top-bar-classes: $include-html-classes;
 // Background color for the top bar
 // $topbar-bg-color: $oil;
 // $topbar-bg: $topbar-bg-color;
+$topbar-bg: #DEE0E3;
 $topbar-bg-color: #DEE0E3;
+
 // #626973;
 
 // Height and margin
@@ -1541,6 +1543,8 @@ $topbar-menu-icon-color: #000000;
 
 // Transitions and breakpoint styles
 // $topbar-transition-speed: 300ms;
+// $topbar-transition-speed: 300ms;
+//
 // Using rem-calc for the below breakpoint causes issues with top bar
 // $topbar-breakpoint: #{lower-bound($medium-range)}; // Change to 9999px for always mobile layout
 // $topbar-media-query: $medium-up;
