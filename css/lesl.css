@@ -1,0 +1,79 @@
+
+/*On the flex container*/
+.flexrow {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.flexcolumn {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: column;
+}
+
+.flexcenter {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+#lesl-menu {
+/*  padding-bottom: 0px;
+  border-bottom-width: 0px;
+  margin-bottom: 0px;*/
+  background-color: #DEE0E3;
+  margin-top: 75px;
+  padding-left: 0px;
+}
+
+#lesl-title {
+  background-color: #DEE0E3;
+}
+
+#lesl-header {
+  margin-top: 35px;
+}
+/*#lesl-panel {
+  padding-bottom:​ 105px;​
+  padding-top:​ 0px;​
+  border-top-width:​ 0px;​
+  padding-right:​ 0px;​
+  border-right-width:​ 0px;​
+  padding-left:​ 0px;​
+  border-left-width:​ 0px;​
+  border-bottom-width:​ 0px;​
+  margin-bottom:​ 20px;​
+  margin-top:​ 20px;​
+}*/
+body {
+  background: #DEE0E3 !important;
+  color: #222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  position: relative;
+  cursor: auto;
+}
+
+
+
+
+
+/*.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+*/
