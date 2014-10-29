@@ -799,6 +799,19 @@ $hr-margin: rem-calc(20);
 // $icon-bar-active-color: $primary-color;
 // $icon-bar-item-padding: 1.25rem;
 
+// We use these to style the icon-bar and items
+$include-html-icon-bar-classes: $include-html-classes;
+// $icon-bar-bg: $oil;
+$icon-bar-font-color: #000000;
+// $icon-bar-font-size: 1rem;
+// $icon-bar-hover-color: $primary-color;
+// $icon-bar-icon-color: $white;
+// $icon-bar-icon-size: 1.875rem;
+// $icon-bar-image-width: 1.875rem;
+// $icon-bar-image-height: 1.875rem;
+// $icon-bar-active-color: $primary-color;
+// $icon-bar-item-padding: 1.25rem;
+
 // 13. Inline Lists
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -1060,7 +1073,7 @@ $include-html-panel-classes: $include-html-classes;
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
 // We use these to control the background and border styles
-$panel-bg: scale-color($white, $lightness: -5%);
+$panel-bg: #DEE0E3;
 $panel-border-style: solid;
 $panel-border-size: 3px;
 //
@@ -1537,7 +1550,7 @@ $topbar-link-padding: $topbar-height / 2;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: $font-weight-bold;
 // $topbar-menu-link-color: $white;
-$topbar-menu-icon-color: #000000;
+$topbar-menu-icon-color: #DEE0E3;
 // $topbar-menu-link-color-toggled: $jumbo;
 // $topbar-menu-icon-color-toggled: $jumbo;
 
