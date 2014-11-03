@@ -25,7 +25,7 @@
   justify-content: center;
 }
 
-#lesl-menu {
+/*#lesl-menu {
   margin-top: 87px;
   background-color: #DEE0E3;
   padding-left: 0px;
@@ -48,7 +48,25 @@
 
 #lesl-header {
   margin-top: 35px;
+}*/
+
+/*#607d8b
+#495A66
+#490A3D*/
+
+
+/*body > header {
+  background-image: linear-gradient(to right, #428d9a, #428d9a 30%, #9fced6 30%) !important;
+}*/
+
+.lesl-header-row {
+  background: #8792A3 !important;
 }
+
+#top-name {
+  background: #8792A3;
+}
+
 /*#lesl-panel {
   padding-bottom:​ 105px;​
   padding-top:​ 0px;​
@@ -92,3 +110,32 @@ body {
    max-width: initial;
 }
 */
+
+.flexwrapper {
+  margin-left: -1em;
+}
+
+.flexwrapper > section {
+  float: left;
+  width: 25%;
+  /*border-left: 1em solid #eff5f5;*/
+  box-sizing: border-box;
+  margin-bottom: .5em;
+  padding-top: 25%;
+}
+
+.flexwrapper > section:nth-child(1) {
+  background: #a9cc5b;
+}
+
+.flexwrapper > section:nth-child(2) {
+  background: #39b4e0;
+}
+
+.flexwrapper > section:nth-child(3) {
+  background: #e4582b;
+}
+
+.flexwrapper > section:nth-child(4) {
+  background: #f8c624;
+}
