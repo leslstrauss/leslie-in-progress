@@ -25,6 +25,22 @@
   justify-content: center;
 }
 
+#top-color {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.name {
+  padding-top: 20px;
+}
+
+.leslie {
+  color: #ffffff !important;
+}
+
+.develop {
+  color: #ffffff !important;
+}
 /*#lesl-menu {
   margin-top: 87px;
   background-color: #DEE0E3;
@@ -125,17 +141,24 @@ body {
 }
 
 .flexwrapper > section:nth-child(1) {
-  background: #a9cc5b;
+  background: #64738b;
+  /*background: #445775;*/
+  /*background: #a9cc5b;*/
 }
 
 .flexwrapper > section:nth-child(2) {
-  background: #39b4e0;
+  background: #64738b;
+  /*background: #39b4e0;*/
 }
 
 .flexwrapper > section:nth-child(3) {
-  background: #e4582b;
+  background: #64738b;
+  /*background: #e4582b;*/
+  /*background: #b4bbc5;*/
 }
 
-.flexwrapper > section:nth-child(4) {
-  background: #f8c624;
+/*.flexwrapper > section:nth-child(4) {
+  background: #64738b;*/
+  /*background: #f8c624;*/
+  /*background: #DEE0E3;*/
 }
