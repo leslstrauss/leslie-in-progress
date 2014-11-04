@@ -25,76 +25,20 @@
   justify-content: center;
 }
 
-#top-color {
-  padding-left: 0px;
-  padding-right: 0px;
+body > header {
+  background-image: linear-gradient(to right, #3C6C84, #3C6C84 30%, #302C5B 30%) !important;
 }
 
-.name {
-  padding-top: 20px;
+.header {
+  background: #302C5B !important;
+  margin-bottom: 0px !important;
+  border: 0px !important;
 }
 
-.leslie {
+.title {
   color: #ffffff !important;
 }
 
-.develop {
-  color: #ffffff !important;
-}
-/*#lesl-menu {
-  margin-top: 87px;
-  background-color: #DEE0E3;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-#les-menu-2 {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-#lesl-title {
-  background-color: #DEE0E3;
-  margin-left: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-#lesl-header {
-  margin-top: 35px;
-}*/
-
-/*#607d8b
-#495A66
-#490A3D*/
-
-
-/*body > header {
-  background-image: linear-gradient(to right, #428d9a, #428d9a 30%, #9fced6 30%) !important;
-}*/
-
-.lesl-header-row {
-  background: #8792A3 !important;
-}
-
-#top-name {
-  background: #8792A3;
-}
-
-/*#lesl-panel {
-  padding-bottom:​ 105px;​
-  padding-top:​ 0px;​
-  border-top-width:​ 0px;​
-  padding-right:​ 0px;​
-  border-right-width:​ 0px;​
-  padding-left:​ 0px;​
-  border-left-width:​ 0px;​
-  border-bottom-width:​ 0px;​
-  margin-bottom:​ 20px;​
-  margin-top:​ 20px;​
-}*/
 body {
   background: #DEE0E3 !important;
   color: #222;
@@ -117,48 +61,4 @@ body {
 
 .icon-bar > * label {
   color: #000000 !important;
-}
-
-/*.fullWidth {
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-   max-width: initial;
-}
-*/
-
-.flexwrapper {
-  margin-left: -1em;
-}
-
-.flexwrapper > section {
-  float: left;
-  width: 25%;
-  /*border-left: 1em solid #eff5f5;*/
-  box-sizing: border-box;
-  margin-bottom: .5em;
-  padding-top: 25%;
-}
-
-.flexwrapper > section:nth-child(1) {
-  background: #64738b;
-  /*background: #445775;*/
-  /*background: #a9cc5b;*/
-}
-
-.flexwrapper > section:nth-child(2) {
-  background: #64738b;
-  /*background: #39b4e0;*/
-}
-
-.flexwrapper > section:nth-child(3) {
-  background: #64738b;
-  /*background: #e4582b;*/
-  /*background: #b4bbc5;*/
-}
-
-/*.flexwrapper > section:nth-child(4) {
-  background: #64738b;*/
-  /*background: #f8c624;*/
-  /*background: #DEE0E3;*/
 }
