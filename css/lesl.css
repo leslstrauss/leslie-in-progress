@@ -26,11 +26,11 @@
 }
 
 body > header {
-  background-image: linear-gradient(to right, #3C6C84, #3C6C84 30%, #302C5B 30%) !important;
+  background-image: linear-gradient(to right, #3C6C84, #3C6C84 30%, #3C6C84 30%) !important;
 }
 
 .header {
-  background: #302C5B !important;
+  background: #3C6C84 !important;
   margin-bottom: 0px !important;
   border: 0px !important;
 }
